@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* base typography */
+html { scroll-behavior: smooth; }
+body { @apply text-gray-800 bg-white; }
+a { @apply text-brand hover:text-brand-dark; }
+
+
